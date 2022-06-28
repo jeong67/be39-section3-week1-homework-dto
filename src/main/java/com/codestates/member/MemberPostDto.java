@@ -18,11 +18,24 @@ public class MemberPostDto {
         return email;
     }
 
+
+    public void setEmail(java.lang.String email) {
+        this.email = email;
+    }
+
     public String getName() {
         return name;
     }
 
+    public void setName(java.lang.String name) {
+        this.name = name;
+    }
+
     public String getPhone() {
         return phone;
+    }
+
+    public void setPhone(java.lang.String phone) {
+        this.phone = phone;
     }
 }
